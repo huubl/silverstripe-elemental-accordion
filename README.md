@@ -2,10 +2,10 @@
 
 Additional elements for the [SilverStripe Elemental](https://github.com/dnadesign/silverstripe-elemental) module.
 
-[![Build Status](https://travis-ci.org/dynamic/silverstripe-elemental-accordion-block.svg?branch=master)](https://travis-ci.org/dynamic/silverstripe-elemental-accordion-block.svg)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion-block/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion-block/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion-block/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion-block/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion-block/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion-block/build-status/master)
+[![Build Status](https://travis-ci.org/dynamic/silverstripe-elemental-acordion.svg?branch=master)](https://travis-ci.org/dynamic/silverstripe-elemental-acordion)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/build-status/master)
 [![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-accordion-block/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-accordion-block)
 
 [![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-accordion-block/v/stable)](https://packagist.org/packages/dynamic/silverstripe-elemental-accordion-block)
