@@ -2,7 +2,7 @@
 
 Additional elements for the [SilverStripe Elemental](https://github.com/dnadesign/silverstripe-elemental) module.
 
-[![Build Status](https://travis-ci.org/dynamic/silverstripe-elemental-acordion.svg?branch=master)](https://travis-ci.org/dynamic/silverstripe-elemental-acordion)
+[![Build Status](https://travis-ci.org/dynamic/silverstripe-elemental-accordion.svg?branch=master)](https://travis-ci.org/dynamic/silverstripe-elemental-accordion)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/build-status/master)
