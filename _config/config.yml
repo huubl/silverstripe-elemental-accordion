@@ -1,0 +1,12 @@
+---
+Name: dynamic-elemental-accordion-config
+---
+Sheadawson\Linkable\Models\Link:
+  templates:
+    button: 'Display link as a button'
+    buttonghost: 'Display link as a ghost button'
+
+SilverStripe\Admin\LeftAndMain:
+  extensions:
+    - Dynamic\Elements\Accordion\Extensions\LeftAndMainExtension
+

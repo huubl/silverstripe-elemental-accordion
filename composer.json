@@ -1,0 +1,53 @@
+{
+    "name": "dynamic/silverstripe-elemental-accordion-block",
+    "type": "silverstripe-vendormodule",
+    "description": "Additional accordion element for the SilverStripe Elemental module",
+    "keywords": [
+        "silverstripe",
+        "elemental",
+        "blocks"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Dynamic",
+            "email": "dev@dynamicagency.com",
+            "homepage": "http://www.dynamicagency.com"
+        }
+    ],
+    "require": {
+        "dnadesign/silverstripe-elemental": "^2@dev",
+        "silverstripe/vendor-plugin": "^1.0@dev",
+        "sheadawson/silverstripe-linkable": "^2.0@dev",
+        "symbiote/silverstripe-gridfieldextensions": "^3.1@dev"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "^5.7",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "extra": {
+        "expose": [
+            "thirdparty",
+            "icons",
+            "client/dist"
+        ],
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Dynamic\\Elements\\AccordionBlock\\": "src/",
+            "Dynamic\\Elements\\AccordionBlock\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "lint": "vendor/bin/phpcs src/ tests/",
+        "lint-clean": "vendor/bin/phpcbf src/ tests/"
+    }
+}
