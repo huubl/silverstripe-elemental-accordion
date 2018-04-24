@@ -6,7 +6,7 @@ Additional elements for the [SilverStripe Elemental](https://github.com/dnadesig
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/build.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/build-status/master)
-[![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-accordion-block/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-accordion-block)
+[![codecov](https://codecov.io/gh/dynamic/silverstripe-elemental-accordion/branch/master/graph/badge.svg)](https://codecov.io/gh/dynamic/silverstripe-elemental-accordion)
 
 [![Latest Stable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-accordion-block/v/stable)](https://packagist.org/packages/dynamic/silverstripe-elemental-accordion-block)
 [![Total Downloads](https://poser.pugx.org/dynamic/silverstripe-elemental-accordion-block/downloads)](https://packagist.org/packages/dynamic/silverstripe-elemental-accordion-block)
