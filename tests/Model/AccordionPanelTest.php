@@ -39,7 +39,7 @@ class AccordionPanelTest extends SapphireTest
         $this->assertTrue($object->canView($siteowner));
 
         $member = $this->objFromFixture(Member::class, 'default');
-        $this->assertFalse($object->canView($member));
+        $this->assertNull($object->canView($member));
     }
 
     /**
