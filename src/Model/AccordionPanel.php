@@ -4,6 +4,7 @@ namespace Dynamic\Elements\Accordion\Model;
 
 use DNADesign\Elemental\Forms\TextCheckboxGroupField;
 use Dynamic\Elements\Accordion\Elements\ElementAccordion;
+use Sheadawson\Linkable\Forms\LinkField;
 use Sheadawson\Linkable\Models\Link;
 use SilverStripe\Assets\Image;
 use SilverStripe\Forms\CheckboxField;
@@ -80,6 +81,7 @@ class AccordionPanel extends DataObject
     public function getCMSFields()
     {
         $this->beforeUpdateCMSFields(function ($fields) {
+            /** @var FieldList $fields */
             $fields->removeByName([
                 'Sort',
                 'AccordionID',
@@ -93,6 +95,12 @@ class AccordionPanel extends DataObject
                     CheckboxField::create('ShowTitle', _t(__CLASS__ . '.ShowTitleLabel', 'Displayed'))
                 )
                     ->setName('TitleAndDisplayed')
+            );
+
+            // because it defaults to a dropdown menu
+            $fields->replaceField(
+                'ElementLinkID',
+                LinkField::create('ElementLinkID', _t(__CLASS__ . 'LinkLabel', 'Link'))
             );
 
             $fields->dataFieldByName('Image')
