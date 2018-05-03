@@ -98,7 +98,8 @@ class AccordionPanel extends DataObject
             );
 
             // because it defaults to a dropdown menu
-            $fields->replaceField('ElementLinkID',
+            $fields->replaceField(
+                'ElementLinkID',
                 LinkField::create('ElementLinkID', _t(__CLASS__ . 'LinkLabel', 'Link'))
             );
 
