@@ -1,6 +1,6 @@
 # SilverStripe Elemental Accordion Block
 
-Additional elements for the [SilverStripe Elemental](https://github.com/dnadesign/silverstripe-elemental) module.
+A block that displays content in collapsable panels.
 
 [![Build Status](https://travis-ci.org/dynamic/silverstripe-elemental-accordion.svg?branch=master)](https://travis-ci.org/dynamic/silverstripe-elemental-accordion)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dynamic/silverstripe-elemental-accordion/?branch=master)
@@ -25,9 +25,22 @@ Additional elements for the [SilverStripe Elemental](https://github.com/dnadesig
 
 ## Usage
 
-Elemental Accordion Block will add the following Element to your site:
+A block that allows you to create collaspible content blocks. 
 
-* Accordion (collapsable panels)
+## Screen Shots
+
+#### Front End sample of an Accordion
+![Front End sample of an Accordion](./readme-images/accordion-sample.jpg)
+
+#### CMS - Accordion Main Tab
+![Accordion Main Tab](./readme-images/accordion-cms-block.jpg)
+
+#### CMS - Accordion Panel List
+![CMS - Accordion Panel List](./readme-images/accordion-cms-list.jpg)
+
+#### CMS - Accordion Panel Edit
+![CMS - Accordion Panel Edit](./readme-images/accordion-cms-panel.jpg)
+
 
 ## Getting more elements
 
