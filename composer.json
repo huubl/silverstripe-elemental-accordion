@@ -1,11 +1,9 @@
 {
-    "name": "dynamic/silverstripe-elemental-accordion-block",
+    "name": "dynamic/silverstripe-elemental-accordion",
     "type": "silverstripe-vendormodule",
-    "description": "Additional accordion element for the SilverStripe Elemental module",
+    "description": "Display content in collapsable panels",
     "keywords": [
-        "silverstripe",
-        "elemental",
-        "blocks"
+        "silverstripe", "elemental", "blocks", "accordion", "panels"
     ],
     "license": "BSD-3-Clause",
     "authors": [
@@ -40,8 +38,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Dynamic\\Elements\\AccordionBlock\\": "src/",
-            "Dynamic\\Elements\\AccordionBlock\\Tests\\": "tests/"
+            "Dynamic\\Elements\\Accordion\\": "src/",
+            "Dynamic\\Elements\\Accordion\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
