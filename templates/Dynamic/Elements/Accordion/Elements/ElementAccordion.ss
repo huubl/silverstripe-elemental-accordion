@@ -17,7 +17,7 @@
     <% end_if %>
 </div>
 
-<% require css('dynamic/silverstripe-elemental-accordion-block: thirdparty/jquery-ui/jquery-ui.min.css') %>
+<% require css('dynamic/silverstripe-elemental-accordion: thirdparty/jquery-ui/jquery-ui.min.css') %>
 <% require javascript('silverstripe/admin: thirdparty/jquery/jquery.js') %>
-<% require javascript('dynamic/silverstripe-elemental-accordion-block: thirdparty/jquery-ui/jquery-ui.min.js') %>
-<% require javascript('dynamic/silverstripe-elemental-accordion-block: client/dist/accordion.init.min.js') %>
+<% require javascript('dynamic/silverstripe-elemental-accordion: thirdparty/jquery-ui/jquery-ui.min.js') %>
+<% require javascript('dynamic/silverstripe-elemental-accordion: client/dist/accordion.init.min.js') %>
