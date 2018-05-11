@@ -25,7 +25,12 @@ A block that displays content in collapsable panels.
 
 ## Usage
 
-A block that allows you to create collaspible content blocks. 
+A block that allows you to create collapsible content blocks.
+
+### Template Notes
+
+The default templates are based off the [jQuery UI Accordion](https://jqueryui.com/accordion/) classes/styling
+
 
 ## Screen Shots
 
