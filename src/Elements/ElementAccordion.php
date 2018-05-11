@@ -12,6 +12,14 @@ use SilverStripe\ORM\FieldType\DBField;
 use SilverStripe\ORM\FieldType\DBHTMLText;
 use Symbiote\GridFieldExtensions\GridFieldOrderableRows;
 
+/**
+ * Class ElementAccordion
+ * @package Dynamic\Elements\Accordion\Elements
+ *
+ * @property string $Content
+ *
+ * @method \SilverStripe\ORM\HasManyList Panels()
+ */
 class ElementAccordion extends BaseElement
 {
     /**
