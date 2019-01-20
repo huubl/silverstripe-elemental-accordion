@@ -16,8 +16,10 @@ A block that displays content in collapsable panels.
 
 ## Requirements
 
-* SilverStripe ^4.0
-* SilverStripe Elemental ^2.0
+* silverstripe/recipe-cms: ^1@dev || ^4@dev
+* dnadesign/silverstripe-elemental: ^4@dev
+* sheadawson/silverstripe-linkable: ^2@dev
+* symbiote/silverstripe-gridfieldextensions: ^3.1@dev
 
 ## Installation
 
