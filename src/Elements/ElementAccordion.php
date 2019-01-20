@@ -25,7 +25,7 @@ class ElementAccordion extends BaseElement
     /**
      * @var string
      */
-    private static $icon = 'accordion-icon';
+    private static $icon = 'font-icon-block-content';
 
     /**
      * @var string
@@ -62,6 +62,15 @@ class ElementAccordion extends BaseElement
     );
 
     /**
+     * Set to false to prevent an in-line edit form from showing in an elemental area. Instead the element will be
+     * clickable and a GridFieldDetailForm will be used.
+     *
+     * @config
+     * @var bool
+     */
+    private static $inline_editable = false;
+
+    /**
      * @return FieldList
      */
     public function getCMSFields()
@@ -93,9 +102,24 @@ class ElementAccordion extends BaseElement
     /**
      * @return DBHTMLText
      */
-    public function ElementSummary()
+    public function getSummary()
     {
-        return DBField::create_field('HTMLText', $this->Content)->Summary(20);
+        if ($this->Panels()->count() == 1) {
+            $label = ' panel';
+        } else {
+            $label = ' panels';
+        }
+        return DBField::create_field('HTMLText', $this->Panels()->count() . $label)->Summary(20);
+    }
+
+    /**
+     * @return array
+     */
+    protected function provideBlockSchema()
+    {
+        $blockSchema = parent::provideBlockSchema();
+        $blockSchema['content'] = $this->getSummary();
+        return $blockSchema;
     }
 
     /**
