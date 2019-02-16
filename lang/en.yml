@@ -9,9 +9,9 @@ en:
       other: '{count} Accordion Elements'
     SINGULARNAME: Accordion Element
   Dynamic\Elements\Accordion\Model\AccordionPanel:
-    DESCRIPTION: 'A content panel for a Accordion Element'
+    DESCRIPTION: 'A content panel for an Accordion Element'
     PLURALNAME: Accordion Panels
     PLURALS:
-      one: 'An Accordion Panel'
+      one: '{count} Accordion Panel'
       other: '{count} Accordion Panels'
     SINGULARNAME: Accordion Panel

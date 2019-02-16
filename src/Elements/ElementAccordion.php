@@ -105,12 +105,13 @@ class ElementAccordion extends BaseElement
      */
     public function getSummary()
     {
-        if ($this->Panels()->count() == 1) {
-            $label = ' panel';
-        } else {
-            $label = ' panels';
-        }
-        return DBField::create_field('HTMLText', $this->Panels()->count() . $label)->Summary(20);
+        $count = $this->Panels()->count();
+        $label = _t(
+            AccordionPanel::class . '.PLURALS',
+            '{count} Accordion Panel|{count} Accordion Panels',
+            [ 'count' => $count ]
+        );
+        return DBField::create_field('HTMLText', $label)->Summary(20);
     }
 
     /**

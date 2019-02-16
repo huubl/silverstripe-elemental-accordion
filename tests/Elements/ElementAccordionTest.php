@@ -3,6 +3,7 @@
 namespace Dynamic\Elements\Accordion\Tests;
 
 use Dynamic\Elements\Accordion\Elements\ElementAccordion;
+use Dynamic\Elements\Accordion\Model\AccordionPanel;
 use SilverStripe\Core\Injector\Injector;
 use SilverStripe\Dev\SapphireTest;
 use SilverStripe\Forms\FieldList;
@@ -31,7 +32,12 @@ class ElementAccordionTest extends SapphireTest
     public function testGetSummary()
     {
         $object = $this->objFromFixture(ElementAccordion::class, 'one');
-        $this->assertEquals($object->getSummary(), '2 panels');
+        $count = $object->Panels()->count();
+        $this->assertEquals($object->getSummary(), _t(
+            AccordionPanel::class . 'PLURALS',
+            '{count} Accordion Panel|{count} Accordion Panels',
+            [ 'count' => $count ]
+        ));
     }
 
     /**
