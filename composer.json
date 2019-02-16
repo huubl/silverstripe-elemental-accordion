@@ -16,9 +16,7 @@
     "require": {
         "dnadesign/silverstripe-elemental": "^4@dev",
         "dynamic/silverstripe-elemental-baseobject": "^2@dev",
-        "silverstripe/vendor-plugin": "^1@dev",
         "sheadawson/silverstripe-linkable": "^2@dev",
-        "silverstripe/recipe-cms": "^4@dev",
         "symbiote/silverstripe-gridfieldextensions": "^3.1@dev"
     },
     "require-dev": {

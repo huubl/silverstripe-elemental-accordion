@@ -1,0 +1,9 @@
+en:
+  Dynamic\Elements\Accordion\Elements\ElementAccordion:
+    BlockType: Accordion
+    PLURALNAME: Accordion Elements
+    PLURALS:
+      one: 'An Accordion Element'
+      other: '{count} Accordion Elements'
+    SINGULARNAME: Accordion Element
+    PanelsLabel: Accordion panels

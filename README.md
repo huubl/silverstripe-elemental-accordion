@@ -13,10 +13,8 @@ A block that displays content in collapsable panels.
 [![Latest Unstable Version](https://poser.pugx.org/dynamic/silverstripe-elemental-accordion/v/unstable)](https://packagist.org/packages/dynamic/silverstripe-elemental-accordion)
 [![License](https://poser.pugx.org/dynamic/silverstripe-elemental-accordion/license)](https://packagist.org/packages/dynamic/silverstripe-elemental-accordion)
 
-
 ## Requirements
 
-* silverstripe/recipe-cms: ^4@dev
 * dnadesign/silverstripe-elemental: ^4@dev
 * sheadawson/silverstripe-linkable: ^2@dev
 * symbiote/silverstripe-gridfieldextensions: ^3.1@dev
@@ -37,16 +35,16 @@ The default templates are based off the [jQuery UI Accordion](https://jqueryui.c
 ## Screen Shots
 
 #### Front End sample of an Accordion
-![Front End sample of an Accordion](./readme-images/accordion-sample.jpg)
+![Front End sample of an Accordion](./images/readme/accordion-sample.jpg)
 
 #### CMS - Accordion Main Tab
-![Accordion Main Tab](./readme-images/accordion-cms-block.jpg)
+![Accordion Main Tab](./images/readme/accordion-cms-block.jpg)
 
 #### CMS - Accordion Panel List
-![CMS - Accordion Panel List](./readme-images/accordion-cms-list.jpg)
+![CMS - Accordion Panel List](./images/readme/accordion-cms-list.jpg)
 
 #### CMS - Accordion Panel Edit
-![CMS - Accordion Panel Edit](./readme-images/accordion-cms-panel.jpg)
+![CMS - Accordion Panel Edit](./images/readme/accordion-cms-panel.jpg)
 
 
 ## Getting more elements

@@ -30,22 +30,12 @@ class ElementAccordion extends BaseElement
     /**
      * @var string
      */
-    private static $singular_name = 'Accordion';
-
-    /**
-     * @var string
-     */
-    private static $plural_name = 'Accordions';
-
-    /**
-     * @var string
-     */
     private static $table_name = 'ElementAccordion';
 
     /**
      * @var string
      */
-    private static $description = 'A collapsing list of content';
+    private static $description = 'Display content in collapsable panels.';
 
     /**
      * @var array
@@ -71,6 +61,18 @@ class ElementAccordion extends BaseElement
     private static $inline_editable = false;
 
     /**
+     * @param bool $includerelations
+     * @return array
+     */
+    public function fieldLabels($includerelations = true)
+    {
+        $labels = parent::fieldLabels($includerelations);
+        $labels['Panels'] = _t(__CLASS__ . '.PanelsLabel', 'Accordion panels');
+
+        return $labels;
+    }
+
+    /**
      * @return FieldList
      */
     public function getCMSFields()
@@ -87,12 +89,16 @@ class ElementAccordion extends BaseElement
             if ($this->ID) {
                 /** @var GridField $panels */
                 $panels = $fields->dataFieldByName('Panels');
-                $panels->setTitle(_t(__CLASS__.'.Panels', 'Panels'));
+                $panels->setTitle($this->fieldLabel('Panels'));
+
+                $fields->removeByName('Panels');
 
                 $config = $panels->getConfig();
                 $config->addComponent(new GridFieldOrderableRows('Sort'));
                 $config->removeComponentsByType(GridFieldAddExistingAutocompleter::class);
                 $config->removeComponentsByType(GridFieldDeleteAction::class);
+
+                $fields->addFieldToTab('Root.Main', $panels);
             }
         });
 
