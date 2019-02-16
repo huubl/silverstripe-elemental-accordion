@@ -33,11 +33,6 @@ class ElementAccordion extends BaseElement
     private static $table_name = 'ElementAccordion';
 
     /**
-     * @var string
-     */
-    private static $description = 'Display content in collapsable panels.';
-
-    /**
      * @var array
      */
     private static $db = [

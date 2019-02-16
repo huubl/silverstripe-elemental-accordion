@@ -27,38 +27,17 @@ use SilverStripe\Security\Permission;
 class AccordionPanel extends BaseElementObject
 {
     /**
-     * @var string
-     */
-    private static $singular_name = 'Accordion Panel';
-
-    /**
-     * @var string
-     */
-    private static $plural_name = 'Accordion Panels';
-
-    /**
-     * @var string
-     */
-    private static $description = 'A panel for a Accordion widget';
-
-    /**
      * @var array
      */
     private static $db = [
         'Sort' => 'Int',
     ];
+
     /**
      * @var array
      */
     private static $has_one = [
         'Accordion' => ElementAccordion::class,
-    ];
-
-    /**
-     * @var array Related objects to be published recursively on AccordionPanel::publishRecursively()
-     */
-    private static $owns = [
-        'Image',
     ];
 
     /**

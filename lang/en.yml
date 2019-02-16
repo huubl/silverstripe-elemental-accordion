@@ -1,9 +1,17 @@
 en:
   Dynamic\Elements\Accordion\Elements\ElementAccordion:
     BlockType: Accordion
+    DESCRIPTION: 'Display content in collapsable panels.'
+    PanelsLabel: Accordion panels
     PLURALNAME: Accordion Elements
     PLURALS:
       one: 'An Accordion Element'
       other: '{count} Accordion Elements'
     SINGULARNAME: Accordion Element
-    PanelsLabel: Accordion panels
+  Dynamic\Elements\Accordion\Model\AccordionPanel:
+    DESCRIPTION: 'A content panel for a Accordion Element'
+    PLURALNAME: Accordion Panels
+    PLURALS:
+      one: 'An Accordion Panel'
+      other: '{count} Accordion Panels'
+    SINGULARNAME: Accordion Panel
