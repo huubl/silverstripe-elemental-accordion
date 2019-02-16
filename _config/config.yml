@@ -1,7 +1,3 @@
 ---
 Name: dynamic-elemental-accordion-config
 ---
-SilverStripe\Admin\LeftAndMain:
-  extensions:
-    - Dynamic\Elements\Accordion\Extensions\LeftAndMainExtension
-
