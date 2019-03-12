@@ -29,7 +29,6 @@
     "extra": {
         "expose": [
             "thirdparty",
-            "icons",
             "client/dist"
         ],
         "branch-alias": {
