@@ -14,13 +14,13 @@
         }
     ],
     "require": {
-        "dnadesign/silverstripe-elemental": "^4@dev",
-        "dynamic/silverstripe-elemental-baseobject": "^2@dev",
-        "sheadawson/silverstripe-linkable": "^2@dev",
-        "symbiote/silverstripe-gridfieldextensions": "^3.1@dev"
+        "dnadesign/silverstripe-elemental": "^4.0",
+        "dynamic/silverstripe-elemental-baseobject": "^2.0",
+        "sheadawson/silverstripe-linkable": "^2.0",
+        "symbiote/silverstripe-gridfieldextensions": "^3.1"
     },
     "require-dev": {
-        "phpunit/PHPUnit": "^5.7",
+        "phpunit/phpunit": "^5.7",
         "squizlabs/php_codesniffer": "*"
     },
     "config": {
