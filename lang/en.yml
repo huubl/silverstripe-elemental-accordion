@@ -1,17 +1,19 @@
 en:
   Dynamic\Elements\Accordion\Elements\ElementAccordion:
     BlockType: Accordion
+    ContentDescription: 'optional. Add introductory copy to your accordion.'
+    ContentLabel: 'Description'
     DESCRIPTION: 'Display content in collapsable panels.'
-    PanelsLabel: Accordion panels
     PLURALNAME: Accordion Elements
     PLURALS:
       one: 'An Accordion Element'
       other: '{count} Accordion Elements'
+    PanelsLabel: 'Accordion panels'
     SINGULARNAME: Accordion Element
   Dynamic\Elements\Accordion\Model\AccordionPanel:
     DESCRIPTION: 'A content panel for an Accordion Element'
-    PLURALNAME: Accordion Panels
+    PLURALNAME: 'Accordion Panels'
     PLURALS:
       one: '{count} Accordion Panel'
       other: '{count} Accordion Panels'
-    SINGULARNAME: Accordion Panel
+    SINGULARNAME: 'Accordion Panel'

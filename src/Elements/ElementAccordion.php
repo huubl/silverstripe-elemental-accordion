@@ -62,6 +62,8 @@ class ElementAccordion extends BaseElement
     public function fieldLabels($includerelations = true)
     {
         $labels = parent::fieldLabels($includerelations);
+
+        $labels['Content'] = _t(__CLASS__.'.ContentLabel', 'Description');
         $labels['Panels'] = _t(__CLASS__ . '.PanelsLabel', 'Accordion panels');
 
         return $labels;
@@ -79,7 +81,11 @@ class ElementAccordion extends BaseElement
             ));
 
             $fields->dataFieldByName('Content')
-                ->setRows(8);
+                ->setDescription(_t(
+                    __CLASS__.'.ContentDescription',
+                    'optional. Add introductory copy to your accordion.'
+                ))
+                ->setRows(5);
 
             if ($this->ID) {
                 /** @var GridField $panels */
