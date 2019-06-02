@@ -1,6 +1,22 @@
 # Change Log
 
-## [2.0.2](https://github.com/dynamic/silverstripe-elemental-accordion/tree/2.0.2) (2019-03-20)
+## [2.0.3](https://github.com/dynamic/silverstripe-elemental-accordion/tree/2.0.3) (2019-06-01)
+[Full Changelog](https://github.com/dynamic/silverstripe-elemental-accordion/compare/2.0.2...2.0.3)
+
+**Implemented enhancements:**
+
+- ElementAcoordion should own Panels [\#32](https://github.com/dynamic/silverstripe-elemental-accordion/issues/32)
+
+**Merged pull requests:**
+
+- update docs and guidelines [\#34](https://github.com/dynamic/silverstripe-elemental-accordion/pull/34) ([jsirish](https://github.com/jsirish))
+- ElementAccordion owns Panels [\#33](https://github.com/dynamic/silverstripe-elemental-accordion/pull/33) ([jsirish](https://github.com/jsirish))
+- i18n adjustments [\#31](https://github.com/dynamic/silverstripe-elemental-accordion/pull/31) ([jsirish](https://github.com/jsirish))
+- new travis, scrutinizer, jenkinsfile [\#30](https://github.com/dynamic/silverstripe-elemental-accordion/pull/30) ([jsirish](https://github.com/jsirish))
+- transifex setup [\#29](https://github.com/dynamic/silverstripe-elemental-accordion/pull/29) ([jsirish](https://github.com/jsirish))
+- i18n improvements [\#28](https://github.com/dynamic/silverstripe-elemental-accordion/pull/28) ([jsirish](https://github.com/jsirish))
+
+## [2.0.2](https://github.com/dynamic/silverstripe-elemental-accordion/tree/2.0.2) (2019-03-21)
 [Full Changelog](https://github.com/dynamic/silverstripe-elemental-accordion/compare/2.0.1...2.0.2)
 
 **Closed issues:**
