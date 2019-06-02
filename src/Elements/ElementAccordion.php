@@ -63,8 +63,8 @@ class ElementAccordion extends BaseElement
     {
         $labels = parent::fieldLabels($includerelations);
 
-        $labels['Content'] = _t(__CLASS__.'.ContentLabel', 'Description');
-        $labels['Panels'] = _t(__CLASS__ . '.PanelsLabel', 'Accordion panels');
+        $labels['Content'] = _t(__CLASS__.'.ContentLabel', 'Intro');
+        $labels['Panels'] = _t(__CLASS__ . '.PanelsLabel', 'Panels');
 
         return $labels;
     }
